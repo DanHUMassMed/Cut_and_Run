@@ -14,3 +14,4 @@ rclone copy -P -vv "./results/05_mapq_filter" "${REMOTE_DIR}/05_mapq_filter/" --
 
 rclone copy -P -vv "./results/07_ucsc" "${REMOTE_DIR}/07_ucsc" --include "**/*.bedGraph.gz"
 
+rclone copy -P -vv "./results/08_bigwig" "${REMOTE_DIR}/08_bigwig/" --include "*.bw"
